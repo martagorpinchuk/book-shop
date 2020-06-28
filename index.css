@@ -1,0 +1,168 @@
+body {
+    font-family: 'Arial', serif;
+    background-image: url(https://images.pexels.com/photos/1040474/pexels-photo-1040474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    background-repeat:repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+      /* The file size of this background image is 93% smaller
+         to improve page load speed on mobile internet connections */
+      background-image: url(https://images.pexels.com/photos/1040474/pexels-photo-1040474.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    }
+  }
+
+.nav {
+    background-color: none;
+    color: #c1c1c1;
+    list-style: none;
+    text-align: right;
+    padding: 5px 0 0 0;
+}
+
+.nav > li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
+    font-size: 17px;
+}
+
+.nav > li > a {
+    text-decoration: none;
+    color: #e6cd7a;
+} 
+
+.nav > li > a:hover {
+    color: #fff45e;
+}
+
+.logo {
+    color: #c1c1c1;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 25px;
+}
+
+.logo  a {
+    text-decoration: none;
+    color: #e6cd7a;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+.banner  .banner-image {
+    width: 100%;
+    display: block;
+}
+
+/* main secture */
+
+main {
+    padding-top: 5%;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background: #cc9b6a;
+    padding: 2.9em;
+    width: 60%;
+}
+
+.card h1 {
+    margin-bottom: .5em;
+}
+
+.card span {
+    line-height: 1.5em;
+}
+
+/* end of main secture */
+
+/* begin of footer */
+
+.footer {
+    text-align: center;
+    color: black;
+    background-color: none;
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 0 20px 0 20px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer h1 {
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: #f1e1c9;
+}
+
+
+/* registration form*/
+
+#contact {
+    background: #cc9b6a;
+    padding: 45px;
+    margin: 30px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 19px;
+}
+
+fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="password"], #contact textarea {
+    width: 95%;
+    border: 1px solid #ccc;
+    background: #ffe6b8;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="password"], #contact textarea, #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.container .button {
+    width: 100%;
+    color: #000000;
+    background-color: #ffe6b8;
+    height: 30px;
+    border: 1px solid #ccc;
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 32%;
+    height: 120%;
+}
+
+/* end of registration form*/
